@@ -1,0 +1,18 @@
+{
+    "id": "com.github.adriadam10.text-fx",
+    "name": "Text FX",
+    "description": "Coloured and animated text in messages: colours, gradients, rainbow, glow, neon, wave, shake and more, with {effect}text{/} tags.",
+    "homepage_url": "https://github.com/adriadam10/mattermost-plugin-text-fx",
+    "support_url": "https://github.com/adriadam10/mattermost-plugin-text-fx/issues",
+    "version": "0.1.0",
+    "min_server_version": "12.0.0",
+    "server": {
+        "executables": {
+            "linux-amd64": "server/dist/plugin-linux-amd64",
+            "linux-arm64": "server/dist/plugin-linux-arm64"
+        }
+    },
+    "webapp": {
+        "bundle_path": "webapp/dist/main.js"
+    }
+}
